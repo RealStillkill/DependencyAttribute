@@ -2,8 +2,13 @@
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
+    <ImplicitUsings>disable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <Title>DependencyAttribute</Title>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Description>Provides attributes for classes that automatically add services to the service container</Description>
+    <RepositoryUrl>https://github.com/RealStillkill/DependencyAttribute</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
   </PropertyGroup>
 
   <ItemGroup>

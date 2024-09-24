@@ -1,4 +1,6 @@
-﻿namespace DependencyAttribute;
+﻿using System;
+
+namespace DependencyAttribute;
 
 [AttributeUsage(AttributeTargets.Class)]
 public sealed class InjectableAttribute : Attribute
